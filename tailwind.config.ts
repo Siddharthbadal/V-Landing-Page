@@ -7,12 +7,10 @@ export default {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
-    },
+    container: {
+      center: true,
+      padding: '2rem'
+    }
   },
   plugins: [],
 } satisfies Config;
