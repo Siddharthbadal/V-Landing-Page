@@ -1,4 +1,5 @@
 import Link from "next/link";
+import TagLine from "./TagLine";
 
 export default function FeatureCard() {
   return (
@@ -12,9 +13,15 @@ export default function FeatureCard() {
 
                       <h3 className="text-lg font-semibold mb-1">Settings</h3>
                     </header>
-                    <p className="text-grat-600 mt-2">
-                      Lorem ipsum   dolor sit amet consectetur adipisicing elit. Asperiores rerum incidunt repellendus qui et deserunt!                      
-                    </p>
+                   
+                      <div className="">
+                      <TagLine>
+                      Lorem ipsum dolor sit amet consac adipisicing elit. In nostrum ratione obcaecati velit eos sit quia repellat labore a amet.   
+                      </TagLine> 
+                      </div>
+                      {/* <p className="text-grat-600 mt-2"> 
+                      Lorem ipsum   dolor sit amet consectetur adipisicing elit. Asperiores rerum incidunt repellendus qui et deserunt! 
+                      </p> */}
                 </article>
             </Link>
         </div>

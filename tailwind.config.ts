@@ -12,5 +12,9 @@ export default {
       padding: '2rem'
     }
   },
-  plugins: [],
+  plugins: [
+    require("@tailwindcss/forms")({
+      strategy: 'class',
+    }),
+   ],
 } satisfies Config;

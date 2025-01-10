@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import TagLine from "./TagLine";
 
 export default function Hero() {
   return (
@@ -12,9 +13,10 @@ export default function Hero() {
                             <span className="bg-gradient-to-r from-blue-800 to-purple-600 bg-clip-text text-transparent px-2 ">Coding</span>
                             Friend
                         </h1>
-                        <p className="mt-4 text-lg text-gray-600">
-                            Unlock your hidden coding potential with new themes, colors and highlights.
-                        </p>
+                        
+                        <TagLine>
+                                Unlock your hidden coding potential with new themes, colors and highlights.
+                        </TagLine>
                     
                     <div className="mt-8 flex gap-x-2">
                         <Link href={'/'} className="px-8 py-3 text-lg font-semibold rounded-lg bg-blue-800 text-blue-100 hover:bg-blue-900">Explore</Link>
