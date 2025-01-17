@@ -19,7 +19,7 @@ export default function Hero() {
                         </TagLine>
                     
                     <div className="mt-8 flex gap-x-2">
-                        <Link href={'/'} className="px-8 py-3 text-lg font-semibold rounded-lg bg-blue-800 text-blue-100 hover:bg-blue-900">Explore</Link>
+                        <Link href={'/playlist'} className="px-8 py-3 text-lg font-semibold rounded-lg bg-blue-800 text-blue-100 hover:bg-blue-900">Explore</Link>
                         <Link href={'features'} className="px-8 py-3 text-lg font-semibold rounded-lg bg-gray-100 text-gray-900 hover:bg-gray-200">Learn More</Link>
                     </div> 
                     </div> 

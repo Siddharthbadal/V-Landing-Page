@@ -3,15 +3,15 @@ import Logo from './Logo'
 
 export default function Header() {
   return (
-    <header className='py-4'>
-        <div className='container mx-auto flex items-center gap-x-10'>
+    <header className='py-1.5 sm:py-4'>
+        <div className='container mx-auto flex items-center justify-between gap-x-10'>
             
             <Logo  />
 
-            <nav className='flex-grow'>
+            <nav className='flex-grow hidden sm:block'>
             <ul className='flex items-center gap-x-8 '>
                 <li className='mr-auto'>
-                    <Link href={'/'}
+                    <Link href={'/library'}
                         className='text-xl font-semibold text-black hover:text-blue-950'
                     >Library</Link>
                 </li>
@@ -27,6 +27,15 @@ export default function Header() {
                 </li>
             </ul>
             </nav>
+
+            <div>
+                <a href="#" className=''>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+</svg>
+
+                </a>
+            </div>
         </div>
     </header>
   )

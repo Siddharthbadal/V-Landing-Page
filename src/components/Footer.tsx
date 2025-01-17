@@ -18,24 +18,27 @@ export default function Footer() {
         
 
         <div className="flex gap-x-16">
+            
             <div className="flex flex-col gap-y-4">
-            <h4 className="text-xl font-semibold">Popular Names</h4>
-            <ListItems>Popular One</ListItems>
-            <ListItems>Popular One</ListItems>
-            <ListItems>Popular One</ListItems>
+            <h4 className="text-xl font-semibold">Library</h4>
+            <ListItems>Contact</ListItems>
+            <ListItems>Themes</ListItems>
+            <ListItems>India</ListItems>
             </div>
             <div className="flex flex-col gap-y-4">
-            <h4 className="text-xl font-semibold">Popular Names</h4>
-            <ListItems>Popular One</ListItems>
-            <ListItems>Popular One</ListItems>
-            <ListItems>Popular One</ListItems>
+            <h4 className="text-xl font-semibold">Popular</h4>
+            <ListItems>Live Chat</ListItems>
+            <ListItems>Songs</ListItems>
+            <ListItems>About</ListItems>
             </div>
+
             <div className="flex flex-col gap-y-4">
-            <h4 className="text-xl font-semibold">Popular Names</h4>
-            <ListItems>Popular One</ListItems>
-            <ListItems>Popular One</ListItems>
-            <ListItems>Popular One</ListItems>
+            <h4 className="text-xl font-semibold">Social</h4>
+            <ListItems>Youtube</ListItems>
+            <ListItems>Twitter</ListItems>
+            <ListItems>Twitch</ListItems>
             </div>
+            
             
         </div>
         </div>

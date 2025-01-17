@@ -7,11 +7,11 @@ import NewsLetter from "@/components/NewsLetter";
 export default function Home() {
   return (
       <div>
-          <Header />
+         
           <Hero />
           <Features />
           <NewsLetter />
-          <Footer />
+          
       </div>
   )
 }
